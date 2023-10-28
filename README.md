@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# Career Hub - Job Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Career Hub is a comprehensive job portal designed to connect job seekers and employers efficiently. This repository contains the codebase for the Career Hub project, which encompasses various functionalities to streamline the job search process. Below is a breakdown of the features and components of the Career Hub portal:
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Home Page
+- **Welcome Message:** Greet visitors and provide a brief overview of the platform.
+- **Featured Job Listings:** Highlight prominent or recently added job openings.
 
-### `npm start`
+### Job Listings Page
+- **Listing Display:** Presents a comprehensive list of available job openings.
+- **Essential Details:** Job title, company, location, and brief descriptions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Job Detail Page
+- **Comprehensive Information:** Detailed overview of a specific job listing.
+- **Key Details:** Responsibilities, qualifications, application deadlines, etc.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Employer Dashboard
+- **Account Management:** Tools for employers to manage their profiles and job postings.
+- **Job Posting:** Enables employers to post job listings with necessary details.
 
-### `npm test`
+### Candidate Dashboard
+- **Profile Management:** Tools for job seekers to manage their profiles and preferences.
+- **Job Applications:** Track and manage job applications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Job Application Process
+- **Application Form:** Includes fields for submitting job applications.
+- **Resume Upload:** Capability for candidates to upload their resumes.
 
-### `npm run build`
+### Search Functionality
+- **Search Bar:** Allows users to find specific job listings easily.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Email Notifications
+- **Application Updates:** Notifications for successful applications and other updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### User Authentication and Security
+- **Secure Login:** Ensures user data and accounts are protected.
+- **Data Protection:** Measures to safeguard user information.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Mobile Responsiveness
+- **Cross-Device Compatibility:** Ensures the website works seamlessly across different devices.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
+- Clone the repository: `git clone https://github.com/ummeTooba/CODSOFT.git`
+- Install dependencies: `npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Usage
+- Start the development server: `npm start`
+- Access the application at `http://localhost:3000`
+- Access the application at `http://localhost:5000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Technologies Used
+- Frontend: HTML, CSS, JavaScript, React (or relevant frontend framework)
+- Backend: (Specify the backend technology if applicable, e.g., Node.js, Django, etc.)
+- Database: (Mention the database used, e.g., MongoDB, MySQL, etc.)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Contribution
+- Fork the repository, make changes, and create a pull request for review.
 
-## Learn More
+### License
+- Mention the license under which the project is distributed.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for your interest in Career Hub!
