@@ -18,5 +18,5 @@ app.use('/api/ejob', require('./routes/ejob'));
 
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+  console.log(`Career hub backend listening on port ${port}`)
 })
