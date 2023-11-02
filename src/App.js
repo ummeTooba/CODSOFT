@@ -5,6 +5,7 @@ import Navigation from './My Components/Navigation'
 import EmployerDashboard from './My Components/EmployerDashboard'
 import CandidateDashboard from './My Components/CandidateDashboard'
 import JobState from './context/joblisted/JobState';
+import Alert from './My Components/Alert';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
       <JobState>
       <Navigation/>
+      <Alert message="Career Hub - Job portal"/>
         <div className="container my-3">
         <Routes>
           <Route path="/" element={<HomePage/>} />
